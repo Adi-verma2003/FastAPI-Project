@@ -36,4 +36,4 @@ jobs:
         run: sleep 5  # Wait to ensure the server is up
 
       - name: Run tests
-        run: pytest FastAPI-Project/testAutomationPytest.py
+        run: pytest ../testAutomationPytest.py
